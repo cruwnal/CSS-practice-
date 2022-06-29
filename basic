@@ -1,5 +1,7 @@
 //1st code 
 
+//inline
+
 <haed>
     <title>
         CSS
@@ -7,4 +9,22 @@
 </haed>
 <body>
     <h1 style="text-align:center; color:red;">Welcome to css</h1>
+</body>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#internal
+<head>
+    <title>Internal</title>
+    <style>
+        h1{text-align:center;
+        color:brown }
+        p{text-align:center;
+        color:gold}
+    </style>
+</head>
+<body>
+    <h1>
+        welcome to the programming world
+
+    </h1>
+    <p>Full form of css is cascading -</p>
 </body>
