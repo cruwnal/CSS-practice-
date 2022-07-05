@@ -28,3 +28,24 @@
     </h1>
     <p>Full form of css is cascading -</p>
 </body>
+.....................................................................
+Css inline internal and external 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS basics
+        </title>
+        <style>
+            h2{color:yellowgreen;text-align:right;}
+        </style>
+        <link rel="stylesheet" href="./global.css">
+    </head>
+    <body>
+        <!--inline-->
+        <h1 style="text-align:center;color:blue">Welcome to inline style </h1>
+        <h2>Welcome to internal style</h2>
+        <h3>welcoime to external style</h3>
+    </body>
+</html>
