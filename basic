@@ -377,4 +377,28 @@ universal selector preferance
     </body>
 </html>
 .....................................................
+direct child selector
 
+<html>
+    <head>
+        <title>
+            DirectChildSelector
+        </title>
+        <style>
+            ul>li{ color:rgb(26, 165, 4);}
+        </style>
+    </head>
+    <body>
+        <details>
+            <summary>Here we are going to see that how Direct child selector will works</summary>
+            <ul>
+                <li>meta</li>
+                <li>img</li>
+                <li>table</li>
+                <li>form</li>
+                <li>input</li>
+                <li>body</li>
+            </ul>
+        </details>
+    </body>
+</html>
