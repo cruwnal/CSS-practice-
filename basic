@@ -386,6 +386,7 @@ direct child selector
         </title>
         <style>
             ul>li{ color:rgb(26, 165, 4);}
+            div>h1{color:rgb(9, 9, 114)}
         </style>
     </head>
     <body>
@@ -399,6 +400,23 @@ direct child selector
                 <li>input</li>
                 <li>body</li>
             </ul>
+
+            <div><h1>html</h1>
+                <h1>html</h1>
+                <h1>html</h1>
+                <h1>html</h1>
+                <h1>html</h1>
+                <h2>css</h2>
+                <h2>css</h2>
+                <h2>css</h2>
+                <h2>css</h2>
+                <h2>css</h2>
+                <h1>html</h1>
+                <h1>html</h1>
+                <h1>html</h1>
+                <h1>html</h1>
+            
+            </div>
         </details>
     </body>
 </html>
