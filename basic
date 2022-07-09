@@ -338,28 +338,43 @@ universal selector preferance
 ....................................................................................................
 <html>
     <head>
-        <title>Basic Selector</title>
+        <title>
+            DescendantSelector
+        </title>
         <style>
-        
-        p,.heading,h3{
-            color:green; 
-        }
-    
-            
+           /* div p{
+                color:blue;
+            }*/
+            div p span{
+                color: red;
+            }
 
+            ul li{color: green;}
+            
         </style>
     </head>
-
     <body>
-        <p>
-            Welcome to programming
-        </p>
-        <h1  class="heading" id="master">HTML</h1>
-        <h2 class="heading">CSS</h2>
-        <h3>Javascript</h3>
-        <p  class="heading" >Welcome to javascript</p>
-        <h1  class="heading">HTML</h1>
-        <h1>HTML</h1>
-        <h1>HTML</h1>
+        <div>
+            <p>Wellcome to the java script<span>hello buddy i am inlime element that's why i worked properly</span></p>
+            
+            <p>Wellcome to the java script</p>
+        </div>
+        <p>Wellcome to the java script</p>
+        <p>Wellcome to the java script</p>
+        <p>Wellcome to the java script</p>
+        <p>Wellcome to the java script</p>
+        <div>
+            <p>Wellcome to the java script</p>
+            <p>Wellcome to the java script</p>
+        </div>
+
+        <ul>here is some list
+            <li>java</li>
+            <li>java script</li>
+            <li>php</li>
+        </ul>
+
     </body>
 </html>
+.....................................................
+
