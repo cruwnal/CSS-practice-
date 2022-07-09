@@ -378,7 +378,6 @@ universal selector preferance
 </html>
 .....................................................
 direct child selector
-
 <html>
     <head>
         <title>
@@ -414,9 +413,9 @@ direct child selector
                 <h1>html</h1>
                 <h1>html</h1>
                 <h1>html</h1>
-                <h1>html</h1>
+                <h1><h1>here nested h1 tag</h1>html</h1>
             
             </div>
+           
         </details>
     </body>
-</html>
